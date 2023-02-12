@@ -4,15 +4,14 @@ print("Success")
 else
 game.Players.LocalPlayer:Kick("lol")
 end
-      repeat
-            wait()
-        until game:IsLoaded()
-
 local fps = 5
  
     if setfpscap then
         setfpscap(fps)
 end
+      repeat
+            wait()
+        until game:IsLoaded()
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "discord.gg/kyura"; -- the title (ofc)
