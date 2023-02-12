@@ -122,7 +122,7 @@ spawn(function()
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(messages[math.random(#messages)] ,"all")
     end
 end)
-wait(200)
+wait(100)
 game.StarterGui:SetCore("SendNotification", {
 Title = "discord.gg/kyura"; -- the title (ofc)
 Text = "SERVER HOPPING"; 
