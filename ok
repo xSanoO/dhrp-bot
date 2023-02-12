@@ -117,7 +117,7 @@ Teleport()
 Mouse = game.Players.LocalPlayer:GetMouse()
  
 Mouse.KeyDown:Connect(function(key)
-if key == "n" then
+if key == "x" then
     game.StarterGui:SetCore("SendNotification", {
 Title = "discord.gg/kyura"; -- the title (ofc)
 Text = "SERVER HOPPING"; 
