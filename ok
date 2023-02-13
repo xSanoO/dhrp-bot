@@ -13,7 +13,6 @@ spawn(function()
         game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(messages[math.random(#messages)] ,"all")
     end
 end)
-wait(5)
 loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
 local messages = {
   "rival is super poopy man | .gg/kyura ",
