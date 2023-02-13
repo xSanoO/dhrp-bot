@@ -1,21 +1,11 @@
---script made by zurc#0001 .gg/kyura
---poopy woopy script - rival
-
 if game.PlaceId == 417267366 then 
 print("Success")
 else
 game.Players.LocalPlayer:Kick("lol")
 end
-      repeat
-            wait()
-        until game:IsLoaded()
+repeat wait() until game:IsLoaded()
+game.ReplicatedStorage.ClaimReward:FireServer()
 wait(1.2)
-game.StarterGui:SetCore("SendNotification", {
-Title = "discord.gg/kyura"; -- the title (ofc)
-Text = "dhrp bot v1"; 
-Icon = "rbxassetid://30117799"; 
-Duration = 110;
-})
 local queueTp = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport or function() end
 repeat wait() until game:IsLoaded()
 spawn(function()
@@ -26,7 +16,29 @@ end)
 wait(5)
 loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
 local messages = {
-    ".gg/kyura join up! | Script made by zurc!",
+  "rival is super poopy man | .gg/kyura ",
+  "zurc likes fjevmbjoys!!!!!!! | .gg/kyura",
+  "go into chrome and type kyura.lol | .gg/kyura",
+  "kyura more pro than shhhh! | .gg/kyura",
+  "krone unban me pwetty pwease ^_^ | .gg/kyura",
+  "krones mad at me for botting | .gg/kyura",
+  "kyura is such a cool server fr | .gg/kyura",
+  "join kyuraaaa :33 | .gg/kyura",
+  "dollhouse roleplay is free adv | .gg/kyura",
+  "kyura.lol the best fr | .gg/kyura",
+  "view the best grp at kyura.lol | .gg/kyura",
+  "go to kyura.lol for cookies | .gg/kyura",
+  "rival is a scary hecker man | .gg/kyura",
+  "zurc is super harmful | .gg/kyura",
+  "rival and zurc are so cool | .gg/kyura",
+  "dhrpK go socialize nerds | .gg/kyura",
+  "this script is so skidded :33 | .gg/kyura",
+  "zurc is better than you at everything | .gg/kyura",
+  "Join server and purchase whitelist! | .gg/kyura",
+  "grah grah dont run dont trip | .gg/kyura",
+  "krone is a big noob ^,,^ | .gg/kyura",
+  "kyura >>> shhhh | .gg/kyura",
+  "kwone is so poopy >_< | .gg/kyura",
 }
 
 local queueTp = syn and syn.queue_on_teleport or queue_on_teleport or fluxus and fluxus.queue_on_teleport or function() end
@@ -37,12 +49,6 @@ spawn(function()
     end
 end)
 wait(90)
-game.StarterGui:SetCore("SendNotification", {
-Title = "discord.gg/kyura"; -- the title (ofc)
-Text = "SERVER HOPPING"; 
-Icon = "rbxassetid://30117799"; 
-Duration =10;
-})
 local PlaceID = game.PlaceId
 local AllIDs = {}
 local foundAnything = ""
