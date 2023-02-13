@@ -1,4 +1,6 @@
 --script made by zurc#0001 .gg/kyura
+--poopy woopy script - rival
+
 if game.PlaceId == 417267366 then 
 print("Success")
 else
